@@ -19,6 +19,18 @@
 		DE5B277116FDD122004051D0 /* VNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B277016FDD122004051D0 /* VNViewController.m */; };
 		DE5B277416FDD122004051D0 /* VNViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B277216FDD122004051D0 /* VNViewController_iPhone.xib */; };
 		DE5B277716FDD122004051D0 /* VNViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B277516FDD122004051D0 /* VNViewController_iPad.xib */; };
+		DEE81D6D16FDD966002E4869 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE81D6B16FDD958002E4869 /* CoreLocation.framework */; };
+		DEE81D7416FDDBFF002E4869 /* libAstroSmall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE81D7216FDDBEC002E4869 /* libAstroSmall.a */; };
+		DEE81D7A16FDDCA1002E4869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B275716FDD122004051D0 /* UIKit.framework */; };
+		DEE81D7B16FDDCA1002E4869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B275916FDD122004051D0 /* Foundation.framework */; };
+		DEE81D7C16FDDCA1002E4869 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5B275B16FDD122004051D0 /* CoreGraphics.framework */; };
+		DEE81D9B16FDDD3C002E4869 /* VNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B276716FDD122004051D0 /* VNAppDelegate.m */; };
+		DEE81D9C16FDDD3C002E4869 /* VNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B277016FDD122004051D0 /* VNViewController.m */; };
+		DEE81D9D16FDDD42002E4869 /* VNViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B277516FDD122004051D0 /* VNViewController_iPad.xib */; };
+		DEE81D9E16FDDD45002E4869 /* VNViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5B277216FDD122004051D0 /* VNViewController_iPhone.xib */; };
+		DEE81D9F16FDDD6F002E4869 /* libAstroSmall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE81D7016FDDBE1002E4869 /* libAstroSmall.a */; };
+		DEE81DA016FDDD79002E4869 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE81D6B16FDD958002E4869 /* CoreLocation.framework */; };
+		DEE81DA116FDDD89002E4869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5B276316FDD122004051D0 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +51,11 @@
 		DE5B277016FDD122004051D0 /* VNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNViewController.m; sourceTree = "<group>"; };
 		DE5B277316FDD122004051D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VNViewController_iPhone.xib; sourceTree = "<group>"; };
 		DE5B277616FDD122004051D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VNViewController_iPad.xib; sourceTree = "<group>"; };
+		DE5B278016FDD17F004051D0 /* AstroSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstroSmall.h; sourceTree = "<group>"; };
+		DEE81D6B16FDD958002E4869 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEE81D7016FDDBE1002E4869 /* libAstroSmall.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAstroSmall.a; sourceTree = "<group>"; };
+		DEE81D7216FDDBEC002E4869 /* libAstroSmall.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAstroSmall.a; sourceTree = "<group>"; };
+		DEE81D7916FDDCA1002E4869 /* MoonAndSunSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonAndSunSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +63,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE81D7416FDDBFF002E4869 /* libAstroSmall.a in Frameworks */,
+				DEE81D6D16FDD966002E4869 /* CoreLocation.framework in Frameworks */,
 				DE5B275816FDD122004051D0 /* UIKit.framework in Frameworks */,
 				DE5B275A16FDD122004051D0 /* Foundation.framework in Frameworks */,
 				DE5B275C16FDD122004051D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE81D7616FDDCA1002E4869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE81DA016FDDD79002E4869 /* CoreLocation.framework in Frameworks */,
+				DEE81D9F16FDDD6F002E4869 /* libAstroSmall.a in Frameworks */,
+				DEE81D7A16FDDCA1002E4869 /* UIKit.framework in Frameworks */,
+				DEE81D7B16FDDCA1002E4869 /* Foundation.framework in Frameworks */,
+				DEE81D7C16FDDCA1002E4869 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +89,7 @@
 		DE5B274B16FDD122004051D0 = {
 			isa = PBXGroup;
 			children = (
+				DE5B277D16FDD141004051D0 /* libAstro */,
 				DE5B275D16FDD122004051D0 /* MoonAndSun */,
 				DE5B275616FDD122004051D0 /* Frameworks */,
 				DE5B275516FDD122004051D0 /* Products */,
@@ -68,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5B275416FDD122004051D0 /* MoonAndSun.app */,
+				DEE81D7916FDDCA1002E4869 /* MoonAndSunSimulator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +108,7 @@
 		DE5B275616FDD122004051D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEE81D6B16FDD958002E4869 /* CoreLocation.framework */,
 				DE5B275716FDD122004051D0 /* UIKit.framework */,
 				DE5B275916FDD122004051D0 /* Foundation.framework */,
 				DE5B275B16FDD122004051D0 /* CoreGraphics.framework */,
@@ -110,6 +144,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DE5B277D16FDD141004051D0 /* libAstro */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B278016FDD17F004051D0 /* AstroSmall.h */,
+				DE5B278216FDD48D004051D0 /* Device */,
+				DE5B278116FDD487004051D0 /* Simulator */,
+			);
+			path = libAstro;
+			sourceTree = "<group>";
+		};
+		DE5B278116FDD487004051D0 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				DEE81D7016FDDBE1002E4869 /* libAstroSmall.a */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
+		DE5B278216FDD48D004051D0 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				DEE81D7216FDDBEC002E4869 /* libAstroSmall.a */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,6 +188,23 @@
 			name = MoonAndSun;
 			productName = MoonAndSun;
 			productReference = DE5B275416FDD122004051D0 /* MoonAndSun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE81D7816FDDCA1002E4869 /* MoonAndSunSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE81D9816FDDCA1002E4869 /* Build configuration list for PBXNativeTarget "MoonAndSunSimulator" */;
+			buildPhases = (
+				DEE81D7516FDDCA1002E4869 /* Sources */,
+				DEE81D7616FDDCA1002E4869 /* Frameworks */,
+				DEE81D7716FDDCA1002E4869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonAndSunSimulator;
+			productName = MoonAndSunSimulator;
+			productReference = DEE81D7916FDDCA1002E4869 /* MoonAndSunSimulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				DE5B275316FDD122004051D0 /* MoonAndSun */,
+				DEE81D7816FDDCA1002E4869 /* MoonAndSunSimulator */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +249,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DEE81D7716FDDCA1002E4869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE81D9D16FDDD42002E4869 /* VNViewController_iPad.xib in Resources */,
+				DEE81D9E16FDDD45002E4869 /* VNViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -181,6 +268,16 @@
 				DE5B276416FDD122004051D0 /* main.m in Sources */,
 				DE5B276816FDD122004051D0 /* VNAppDelegate.m in Sources */,
 				DE5B277116FDD122004051D0 /* VNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE81D7516FDDCA1002E4869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE81D9B16FDDD3C002E4869 /* VNAppDelegate.m in Sources */,
+				DEE81D9C16FDDD3C002E4869 /* VNViewController.m in Sources */,
+				DEE81DA116FDDD89002E4869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +336,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,7 +361,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -275,10 +372,22 @@
 		DE5B277B16FDD122004051D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoonAndSun/MoonAndSun-Prefix.pch";
 				INFOPLIST_FILE = "MoonAndSun/MoonAndSun-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libAstro/Device\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libAstro\"";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,9 +395,51 @@
 		DE5B277C16FDD122004051D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoonAndSun/MoonAndSun-Prefix.pch";
 				INFOPLIST_FILE = "MoonAndSun/MoonAndSun-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/libAstro/Device\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/libAstro\"";
+				VALID_ARCHS = "armv7 armv7s armv6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEE81D9916FDDCA1002E4869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonAndSun/MoonAndSun-Prefix.pch";
+				INFOPLIST_FILE = "MoonAndSun/MoonAndSun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libAstro/Simulator\"";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEE81D9A16FDDCA1002E4869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoonAndSun/MoonAndSun-Prefix.pch";
+				INFOPLIST_FILE = "MoonAndSun/MoonAndSun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/libAstro/Simulator\"";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,6 +462,15 @@
 			buildConfigurations = (
 				DE5B277B16FDD122004051D0 /* Debug */,
 				DE5B277C16FDD122004051D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE81D9816FDDCA1002E4869 /* Build configuration list for PBXNativeTarget "MoonAndSunSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE81D9916FDDCA1002E4869 /* Debug */,
+				DEE81D9A16FDDCA1002E4869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
